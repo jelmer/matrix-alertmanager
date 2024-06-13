@@ -27,7 +27,7 @@ the container.
 
 ### Docker
 
-The [Docker image](https://cloud.docker.com/repository/docker/jelmer/matrix-alertmanager) `jelmer/matrix-alertmanager:latest` is the easiest way to get the service running. Ensure you set the required environment variables listed in `.env.default` in this repository.
+The [Docker image](https://ghcr.io/jelmer/matrix-alertmanager) `ghcr.io/jelmer/matrix-alertmanager:latest` is the easiest way to get the service running. Ensure you set the required environment variables listed in `.env.default` in this repository.
 
 ### Alertmanager
 
@@ -87,7 +87,7 @@ Come chat in the https://matrix.to/#/#matrix-alertmanager:federator.dev room!
 
 ## Author
 
-Jason Robinson / https://jasonrobinson.me / @jelmer:federator.dev
+Jason Robinson / https://jasonrobinson.me / @jaywink:federator.dev
 
 ## License
 
