@@ -1,4 +1,4 @@
-[![](https://img.shields.io/docker/pulls/jaywink/matrix-alertmanager.svg)](https://cloud.docker.com/u/jaywink/repository/docker/jaywink/matrix-alertmanager) [![](https://img.shields.io/matrix/matrix-alertmanager:federator.dev.svg?server_fqdn=federator.dev)](https://matrix.to/#/#matrix-alertmanager:federator.dev)
+[![](https://img.shields.io/docker/pulls/jelmer/matrix-alertmanager.svg)](https://cloud.docker.com/u/jelmer/repository/docker/jelmer/matrix-alertmanager) [![](https://img.shields.io/matrix/matrix-alertmanager:federator.dev.svg?server_fqdn=federator.dev)](https://matrix.to/#/#matrix-alertmanager:federator.dev)
 
 # Matrix-Alertmanager
 
@@ -27,7 +27,7 @@ the container.
 
 ### Docker
 
-The [Docker image](https://cloud.docker.com/repository/docker/jaywink/matrix-alertmanager) `jaywink/matrix-alertmanager:latest` is the easiest way to get the service running. Ensure you set the required environment variables listed in `.env.default` in this repository.
+The [Docker image](https://cloud.docker.com/repository/docker/jelmer/matrix-alertmanager) `jelmer/matrix-alertmanager:latest` is the easiest way to get the service running. Ensure you set the required environment variables listed in `.env.default` in this repository.
 
 ### Alertmanager
 
@@ -74,7 +74,7 @@ Come chat in the https://matrix.to/#/#matrix-alertmanager:federator.dev room!
 
 ## Author
 
-Jason Robinson / https://jasonrobinson.me / @jaywink:federator.dev
+Jason Robinson / https://jasonrobinson.me / @jelmer:federator.dev
 
 ## License
 
