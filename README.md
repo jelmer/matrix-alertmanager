@@ -42,6 +42,19 @@ receivers:
 
 The secret key obviously should match the one in the alertmanager configuration.
 
+Alternatively, put the secret in a separate file and use basic auth with username `alertmanager`:
+
+```yaml
+receivers:
+- name: 'myreceiver'
+  webhook_configs:
+  - url: 'https://my-matrix-alertmanager.tld/alerts'
+    http_config:
+      basic_auth:
+        username: alertmanager
+        password_file: /path/to/password.secret
+```
+
 ### Prometheus rules
 
 Add some styling to your prometheus rules
@@ -58,7 +71,7 @@ rules:
     team: dev
 ```
 
-NOTE! Currently the bot cannot talk HTTPS, so you need to have a reverse proxy in place to terminate SSL, or use unsecure unencrypted connections.
+NOTE! Currently, the bot cannot talk HTTPS, so you need to have a reverse proxy in place to terminate SSL, or use unsecure unencrypted connections.
 
 ## TODO
 
@@ -66,7 +79,7 @@ NOTE! Currently the bot cannot talk HTTPS, so you need to have a reverse proxy i
 
 ## Tech
 
-Node 14, Express, Matrix JS SDK
+Node 18, Express, Matrix JS SDK
 
 ## Help
 

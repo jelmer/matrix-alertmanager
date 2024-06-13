@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.7.2 - 2023-04-15
+
+### Changed
+
+* Various dependency updates
+
+## 0.7.1 - 2023-04-01
+
+### Changed
+
+* Various dependency updates
+
+## 0.7.0 - 2023-01-13
+
+### Added
+
+* Basic auth support by @tnyeanderson
+
+### Changed
+
+* Dependency updates
+
+## 0.6.0 - 2022-12-06
+
+### Breaking
+
+* Required NodeJS version is now 18
+
+### Changed
+
+* Docker image changed to base on Alpine to reduce size.
+
+* Various dependency updates.
+
 ## 0.5.0 - 2021-09-23
 
 ### Changed
